@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ayush Mishra">
+    <title>Naruto Verse</title>
+    <link rel="icon" type="images/pmg" href="images/narutoredcloud.png">
+</head>
+<body>
+
+    <header style="text-align: center;">
+        <h1 style="background-color: orange; text-align: center; font-family: Verdana;">WELCOME TO NARUTO VERSE</h1>
+        <img src="gif/sasukerinnegan.gif" alt="sasukerinnegan" width="20%">
+        <img src="images/narutotext.jpg" alt="narutologo" width="20%">
+        <img src="gif/narutoyellow.gif" alt="naruto" width="20%">
+    </header>
+
+    <main>
+        <h2 style="background-color: orange; text-align: center; font-family:Verdana;">ENTER YOUR DETAILS</h2>
+
+        <div id="form" style="background-color: palevioletred; text-align: center; font-family:Verdana;">
+        <form action="/pages/main.html" target="_blank">
+            <label for="username">Username</label>
+            <input type="text" name="name" id="username" placeholder="Enter your Username"><br>
+            <label for="pass">Password &nbsp;</label>
+            <input type="password" name="pass" id="pass" placeholder="Enter your Password"><br>
+            <label for="phone">Phone No &nbsp; </label>
+            <input type="tel" name="phone" id="phone" placeholder="(+91)"><br>
+            <label for="email">Email :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="email" name="email" id="email" placeholder="abc@mail.com"><br>
+            <label for="quantity">Chakra :</label>
+            <input type="number" name="quantity" id="quantity" placeholder="Quantity" min="1" max="100"><br>
+            <label for="birthday">Birthdate</label>
+            <input type="date" name="birthday" id="birthday" placeholder="dd-mm-yyyy"><br>
+            <label for="Clan">Select Your Clan</label>
+            <select name="CLan" id="Clan">
+                <option value="Uchiha">Uchiha Clan</option>
+                <option value="Uzumaki">Uzumaki Clan</option>
+                <option value="Hyuga">Hyuga Clan</option>
+                <option value="Senju">Senju Clan</option>
+                <option value="Otsutsuki">Otsutsuki Clan</option>
+            </select><br>
+
+            <div id="Radio">
+
+                <h3>Pick Your Element</h3>
+                <input type="radio" name="Element" id="Fire" value="Fire">
+                <label for="Fire">Fire</label>
+                <input type="radio" name="Element" id="Fire" value="Fire">
+                <label for="Water">Water</label>
+                <input type="radio" name="Element" id="Water" value="Water">
+                <label for="Earth">Earth</label>
+                <input type="radio" name="Element" id="Earth" value="Earth">
+                <label for="Lightining">Lightining</label>
+                <input type="radio" name="Element" id="Lightining" value="Lightining">
+                <label for="Wind">Wind</label>
+                <input type="radio" name="Element" id="Wind" value="Wind"><br><br>
+
+            </div>
+             
+            <div id="confirms">
+            <label for="confirm">I confirm I am above 18</label>
+            <input type="checkbox" name="confirm" id="confirm" required><br><br>
+            </div>
+
+            <button style="background-color: lightgreen;" type="submit""> Submit</button>
+            <button style="background-color: lightcoral;" type="reset"> Reset </button>
+            
+        </form>
+        </div>
+    </main>
+    
+    <footer style="text-align: center;">
+        <p>Copyright &copy; by Ayush Mishra 2026</p>
+        <iframe src="https://naruto-official.com/en" frameborder="0" width="100%"></iframe>
+        <form action="https://www.google.com/search" target="_blank">
+            <label for="search">Search</label>
+            <input type="text" name="q" id="search">
+        </form>
+        <audio src="/audio/naruto-sorrow.mp3" controls loop>
+    </footer>
+</body>
+</html>
